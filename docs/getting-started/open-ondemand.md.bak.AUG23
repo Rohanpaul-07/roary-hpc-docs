@@ -1,0 +1,95 @@
+# Open OnDemand
+
+Open OnDemand provides browser-based access to Roary.
+
+It allows users to work with HPC resources without requiring a traditional SSH terminal for every task.
+
+---
+
+## What Can You Do with Open OnDemand?
+
+Open OnDemand can provide access to:
+
+- File management
+- Shell access
+- Job monitoring
+- Interactive desktops
+- Jupyter
+- RStudio
+- VS Code
+- MATLAB
+- Other interactive research applications
+
+---
+
+## Accessing Open OnDemand
+
+Open:
+
+```text
+OOD_URL
+```
+
+in a supported web browser.
+
+Authenticate using your authorized FIU credentials.
+
+---
+
+## Files
+
+The Files interface can be used to:
+
+- Browse directories
+- Upload files
+- Download files
+- Create directories
+- Rename files
+- Delete files
+- Edit text files
+
+---
+
+## Shell Access
+
+Open OnDemand can provide terminal access directly from the browser.
+
+The shell behaves similarly to an SSH session.
+
+---
+
+## Interactive Applications
+
+Interactive applications request compute resources through Slurm.
+
+Depending on the application, you may need to select:
+
+- Number of CPUs
+- Memory
+- Runtime
+- Partition
+- GPU resources
+
+!!! tip "Request only the resources you need"
+
+    Larger resource requests can sometimes take longer to schedule.
+
+---
+
+## Open OnDemand vs SSH
+
+| Task | SSH | Open OnDemand |
+|---|---|---|
+| Terminal access | Yes | Yes |
+| File management | Command line | Browser |
+| Submit Slurm jobs | Yes | Yes |
+| Interactive desktop | Manual | Convenient |
+| Jupyter | Manual | Convenient |
+| RStudio | Manual | Convenient |
+| VS Code | Manual | Convenient |
+
+---
+
+## Next Step
+
+[How Roary Works :material-arrow-right:](login-vs-compute.md){ .md-button .md-button--primary }

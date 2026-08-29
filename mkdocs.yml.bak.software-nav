@@ -1,0 +1,129 @@
+site_name: Roary HPC Documentation
+site_description: FIU Research Computing - Roary High Performance Computing User Guide
+site_author: FIU Research Computing
+
+theme:
+  name: material
+
+  language: en
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+  icon:
+    logo: material/server-network
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.superfences
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: >
+  FIU Research Computing &nbsp;•&nbsp; Roary High Performance Computing
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - What is Roary?: getting-started/what-is-roary.md
+      - Request Access: getting-started/request-access.md
+      - Connect to Roary: getting-started/connect.md
+      - Open OnDemand: getting-started/open-ondemand.md
+      - Login vs Compute Nodes: getting-started/login-vs-compute.md
+      - Linux Basics: getting-started/linux-basics.md
+      - Your First Job: getting-started/first-job.md
+      - Next Steps: getting-started/next-steps.md
+
+  - Using Roary:
+      - Overview: using-roary/index.md
+
+  - Running Jobs:
+      - Overview: running-jobs/index.md
+
+  - Storage & Data:
+      - Overview: storage/index.md
+
+  - Software:
+      - Overview: software/index.md
+
+  - GPUs:
+      - Overview: gpus/index.md
+
+  - Open OnDemand:
+      - Overview: open-ondemand/index.md
+
+  - Examples:
+      - Overview: examples/index.md
+
+  - Troubleshooting:
+      - Overview: troubleshooting/index.md
+
+  - Best Practices:
+      - Overview: best-practices/index.md
+
+  - Policies:
+      - Overview: policies/index.md
+
+  - Reference:
+      - Overview: reference/index.md

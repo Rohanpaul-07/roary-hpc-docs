@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Generated MkDocs website
+site/
+
+# Local backups
+backups/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MkDocs/cache
+.cache/
+.mypy_cache/
+.pytest_cache/
