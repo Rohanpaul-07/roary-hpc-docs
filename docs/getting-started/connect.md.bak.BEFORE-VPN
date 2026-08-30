@@ -57,36 +57,6 @@ Roary can be accessed in two primary ways: through a traditional SSH terminal or
 </div>
 
 
-## Network Access & FIU VPN
-
-Before connecting to Roary, make sure you are on the appropriate FIU network.
-
-| Your Location | What to Do |
-|---|---|
-| **FIU wired network** | Connect directly to Roary |
-| **Off campus or wireless** | Connect to the **FIU VPN first** |
-
-!!! important "Connecting from off campus or wireless?"
-    Connect to the **FIU VPN first**, then access Roary using SSH or
-    Open OnDemand.
-
-    After connecting to the VPN, you can use:
-
-    ```bash
-    ssh USERNAME@hpclogin.fiu.edu
-    ```
-
-    Or open:
-
-    ```text
-    https://hpclogin.fiu.edu
-    ```
-
-For FIU VPN setup instructions, see the
-[FIU VPN Guide](https://ircc.fiu.edu/vpn-guide/){ target="_blank" }.
-
----
-
 ## SSH Access
 
 SSH stands for **Secure Shell**. It provides an encrypted command-line connection between your computer and the Roary environment.

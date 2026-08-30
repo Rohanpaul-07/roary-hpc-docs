@@ -106,91 +106,35 @@ nav:
 
   - Software:
       - Overview: software/index.md
+
       - Environment Modules: software/modules/index.md
 
       - Languages & Environments:
-          - Python: software/languages/python.md
           - Conda / Miniconda: software/languages/conda.md
-          - R: software/languages/r.md
-          - Julia: software/languages/julia.md
-          - Java: software/languages/java.md
+          - Python: software/languages/python.md
 
-      - AI & Machine Learning:
-          - PyTorch: software/ai-ml/pytorch.md
-          - TensorFlow: software/ai-ml/tensorflow.md
-          - JAX: software/ai-ml/jax.md
-          - scikit-learn: software/ai-ml/scikit-learn.md
-          - CUDA AI Environment: software/ai-ml/cuda-ai.md
-
-      - Bioinformatics & Genomics:
-          - SPAdes: software/bioinformatics/spades.md
-          - DeepVariant: software/bioinformatics/deepvariant.md
-          - SRA Toolkit: software/bioinformatics/sra-toolkit.md
-          - BWA / BWA-MEM2: software/bioinformatics/bwa.md
-          - SAMtools: software/bioinformatics/samtools.md
-          - BCFtools: software/bioinformatics/bcftools.md
-          - BEDTools: software/bioinformatics/bedtools.md
-          - GATK: software/bioinformatics/gatk.md
-          - BLAST+: software/bioinformatics/blast.md
-          - STAR: software/bioinformatics/star.md
-          - HISAT2: software/bioinformatics/hisat2.md
-          - minimap2: software/bioinformatics/minimap2.md
-          - FastQC: software/bioinformatics/fastqc.md
-          - MultiQC: software/bioinformatics/multiqc.md
-
-      - Chemistry & Molecular Modeling:
-          - Gaussian: software/chemistry/gaussian.md
-          - Molpro: software/chemistry/molpro.md
-          - ORCA: software/chemistry/orca.md
-          - GROMACS: software/chemistry/gromacs.md
-          - LAMMPS: software/chemistry/lammps.md
-          - NAMD: software/chemistry/namd.md
-          - Quantum ESPRESSO: software/chemistry/quantum-espresso.md
-
-      - Compilers & Parallel Computing:
+      - Compilers:
           - GCC: software/parallel/gcc.md
           - Intel oneAPI: software/parallel/intel-oneapi.md
+
+      - Parallel Computing:
           - OpenMPI: software/parallel/openmpi.md
-          - MPICH: software/parallel/mpich.md
           - OpenMP: software/parallel/openmp.md
+
+      - GPU Development:
           - CUDA: software/parallel/cuda.md
-
-      - Math, Statistics & Data Science:
-          - MATLAB: software/math-data/matlab.md
-          - Mathematica: software/math-data/mathematica.md
-          - NumPy / SciPy: software/math-data/numpy-scipy.md
-          - pandas: software/math-data/pandas.md
-          - Dask: software/math-data/dask.md
-
-      - Engineering & Simulation:
-          - ANSYS: software/engineering/ansys.md
-          - Abaqus: software/engineering/abaqus.md
-          - COMSOL: software/engineering/comsol.md
-          - OpenFOAM: software/engineering/openfoam.md
-
-      - Visualization:
-          - ParaView: software/visualization/paraview.md
-          - VisIt: software/visualization/visit.md
-          - VMD: software/visualization/vmd.md
 
       - Containers:
           - Apptainer: software/containers/apptainer.md
 
-      - Workflow Managers:
-          - Snakemake: software/workflows/snakemake.md
-          - Nextflow: software/workflows/nextflow.md
+      - Software Help:
+          - Installing Your Own Software: software/admin/installing-software.md
+          - Request New Software: software/admin/request-software.md
 
-      - Interactive Software:
-          - Jupyter: software/interactive/jupyter.md
-          - RStudio: software/interactive/rstudio.md
-          - VS Code: software/interactive/vscode.md
-          - MATLAB Interactive: software/interactive/matlab.md
-
-      - Installing Your Own Software: software/admin/installing-software.md
-      - Licensed Software: software/admin/licensed-software.md
-      - Request New Software: software/admin/request-software.md
   - GPUs:
       - Overview: gpus/index.md
+      - Requesting & Using GPUs: gpus/using-gpus.md
+      - AI & Machine Learning: gpus/ai-ml.md
 
   - Open OnDemand:
       - Overview: open-ondemand/index.md

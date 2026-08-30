@@ -27,25 +27,6 @@
 </div>
 
 
-## Acknowledging Roary
-
-Research enabled by shared computing resources helps demonstrate the value
-and impact of research computing at FIU.
-
-If Roary contributed to your research, publication, thesis, dissertation,
-poster, or presentation, we would appreciate an acknowledgement of the
-**FIU Instructional & Research Computing Center (IRCC)** and the
-**Roary High Performance Computing cluster**.
-
-!!! quote "Suggested Acknowledgement"
-    Computational resources were provided by the Roary High Performance
-    Computing cluster at Florida International University's Instructional
-    & Research Computing Center (IRCC).
-
-The wording may be adjusted to match the acknowledgement requirements of
-your publication, funding agency, or research group.
-
-
 ## FIU Research Computing
 
 For FIU HPC information, policies, guides, and support:
@@ -75,7 +56,8 @@ Official documentation:
 
 [Slurm Documentation](https://slurm.schedmd.com/){ target="_blank" }
 
-For Roary-specific Slurm usage:
+Use the Roary documentation first for cluster-specific information such as
+accounts, partitions, QOS, and local resource policies.
 
 [Running Jobs :material-arrow-right:](../running-jobs/index.md){ .md-button }
 
@@ -109,8 +91,8 @@ Roary-specific instructions:
 
 ## NVIDIA CUDA
 
-CUDA provides the development environment used by many NVIDIA GPU
-applications.
+CUDA provides the development environment and programming platform used by
+many NVIDIA GPU applications.
 
 Official documentation:
 
@@ -139,7 +121,8 @@ Roary-specific instructions:
 
 ## Open MPI
 
-Open MPI provides MPI support for many parallel scientific applications.
+Open MPI provides the MPI implementation used by many parallel scientific
+applications.
 
 Official documentation:
 
@@ -152,8 +135,8 @@ Roary-specific instructions:
 
 ## OpenMP
 
-OpenMP provides shared-memory parallel programming support for C, C++,
-and Fortran applications.
+OpenMP provides a portable shared-memory parallel programming model for
+C, C++, and Fortran.
 
 Official documentation:
 
@@ -177,12 +160,32 @@ Roary-specific instructions:
 [GCC on Roary :material-arrow-right:](../software/parallel/gcc.md){ .md-button }
 
 
+## Acknowledging Roary
+
+Research enabled by shared computing resources helps document the role of
+research computing in FIU research.
+
+If Roary contributed to your research, publication, thesis, dissertation,
+poster, or presentation, we appreciate an acknowledgement of the
+**FIU Instructional & Research Computing Center (IRCC)** and the
+**Roary High Performance Computing cluster**.
+
+!!! quote "Suggested Acknowledgement"
+    Computational resources were provided by the Roary High Performance
+    Computing cluster at Florida International University's Instructional
+    & Research Computing Center (IRCC).
+
+The wording may be adjusted to match the style or acknowledgement requirements
+of your publication, funding agency, or research group.
+
+
 ## Roary Documentation Comes First
 
 Upstream documentation explains how software and technologies work in
 general.
 
-For Roary-specific details, follow this documentation for information such as:
+For Roary-specific details, always follow this documentation for information
+such as:
 
 - Cluster access
 - Slurm accounts
