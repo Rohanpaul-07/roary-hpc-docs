@@ -9,7 +9,7 @@ The website is built using **MkDocs** and **Material for MkDocs**.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Rohanpaul-07/roary-hpc-docs.git
+git clone https://rpotnuru%40fiu.edu@oci-git-fiuoci.developer.ocp.oraclecloud.com/oci-git-fiuoci/s/oci-git-fiuoci_hpc-webpage_243915/scm/HPC_Webpage.git
 cd roary-hpc-docs
 ```
 
